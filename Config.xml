@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ConfigValues>
+	<SqlDB></SqlDB>
+        <ProdSqlDB>D</ProdSqlDB>
+	<SqlDatabaseName>sql database name</SqlDatabaseName>
+	<SqlUid>sql user name</SqlUid>
+	<Sqlpwd>sql db password</Sqlpwd>
+	<DsnName>DSN=ProdPerfTest;authenticator=externalbrowser</DsnName>
+        <DsnNameRpt>DSN=Snowflake_Reports_DBT_Dev;authenticator=externalbrowser</DsnNameRpt>
+         
+	<snowflakeuid>snowflake user name</snowflakeuid>
+	<snowpwd>snowflake password</snowpwd>
+	<AwsBucketName>snowflake export report bucket name(on S3)</AwsBucketName>
+</ConfigValues>
